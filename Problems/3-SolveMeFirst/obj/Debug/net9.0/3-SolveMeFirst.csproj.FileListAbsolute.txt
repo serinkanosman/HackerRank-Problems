@@ -1,0 +1,5 @@
+C:\Users\Serinkan\Desktop\Yazılım\HackerRank-Problems\AlgorithmProblems\Problems\3-SolveMeFirst\obj\Debug\net9.0\3-SolveMeFirst.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serinkan\Desktop\Yazılım\HackerRank-Problems\AlgorithmProblems\Problems\3-SolveMeFirst\obj\Debug\net9.0\3-SolveMeFirst.AssemblyInfoInputs.cache
+C:\Users\Serinkan\Desktop\Yazılım\HackerRank-Problems\AlgorithmProblems\Problems\3-SolveMeFirst\obj\Debug\net9.0\3-SolveMeFirst.AssemblyInfo.cs
+C:\Users\Serinkan\Desktop\Yazılım\HackerRank-Problems\AlgorithmProblems\Problems\3-SolveMeFirst\obj\Debug\net9.0\3-SolveMeFirst.csproj.CoreCompileInputs.cache
+C:\Users\Serinkan\Desktop\Yazılım\HackerRank-Problems\AlgorithmProblems\Problems\3-SolveMeFirst\obj\Debug\net9.0\3-SolveMeFirst.sourcelink.json
