@@ -35,22 +35,26 @@ Explanation
 2+3 = 5
 
 */
-namespace SolveMeFirst{
-public class Program{
-      
-            // Toplama işlemi yapan fonksiyon
+class Solve{
+
+    
         public static int solveMeFirst(int a, int b) 
         { 
                 return a + b; // İki sayıyı toplar
         }
+
+ class SolveMeFirstSolution{
+      
+            // Toplama işlemi yapan fonksiyon
         
 
-        static void Main(String[] args) 
+        public static void Main(String[] args) 
         {
             int val1 = Convert.ToInt32(Console.ReadLine());
             int val2 = Convert.ToInt32(Console.ReadLine());
-            int sum = solveMeFirst(val1,val2);
+            int sum = Solve.solveMeFirst(val1,val2);
             Console.WriteLine(sum);
         }
     }
+
 }

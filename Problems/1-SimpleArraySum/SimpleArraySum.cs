@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
-#region Problem
+
     /// Given an array of integers, find the sum of its elements.
 /*
 For example, if the array , , so return .
@@ -45,8 +45,7 @@ Sample Output
 31
 
 Print the sum of the array's elements: .*/
-#endregion
-class Result
+class SimpleArrayResult
 {
 
     /*
@@ -64,7 +63,7 @@ class Result
 
 }
 
-class Solution
+class SolutioSimpleArraySolution
 {
     public static void Main(string[] args)
     {
@@ -74,7 +73,7 @@ class Solution
 
         List<int> ar = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arTemp => Convert.ToInt32(arTemp)).ToList();
 
-        int result = Result.simpleArraySum(ar);
+        int result = SimpleArrayResult.simpleArraySum(ar);
 
         textWriter.WriteLine(result);
 

@@ -1,17 +1,4 @@
-﻿using System.CodeDom.Compiler;
-using System.Collections.Generic;
-using System.Collections;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization;
-using System.Text.RegularExpressions;
-using System.Text;
-using System;
-/*
+﻿/*
 
 Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty.
 
@@ -83,8 +70,21 @@ Comparing the 0th elements, 17<99  so Bob receives a point.
 Comparing the 1st and 2nd elements, 28> 16 and 30 > 8  so Alice receives two points.
 The return array is [2,1].
 */
+using System.CodeDom.Compiler;
+using System.Collections.Generic;
+using System.Collections;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.Serialization;
+using System.Text.RegularExpressions;
+using System.Text;
+using System;
 
-class Result
+class CompareResult
 {
 
     /*
@@ -102,17 +102,18 @@ class Result
         int bobScore = 0;
 
         for (int i = 0; i < 3; i++){
-
-        
             if (a[i] > b[i])
                 aliceScore++;
             else if (a[i] < b[i])
                 bobScore++;
+            
+                     
         }
 
         return new List<int> { aliceScore, bobScore };
     }
-}
+
+
 
 class Solution
 {
@@ -124,11 +125,12 @@ class Solution
 
         List<int> b = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(bTemp => Convert.ToInt32(bTemp)).ToList();
 
-        List<int> result = Result.compareTriplets(a, b);
+        List<int> result = CompareResult.compareTriplets(a, b);
 
         textWriter.WriteLine(String.Join(" ", result));
 
         textWriter.Flush();
         textWriter.Close();
+    }
     }
 }
